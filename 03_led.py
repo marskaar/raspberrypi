@@ -8,7 +8,7 @@ def setup():
     GPIO.setup(LedPin, GPIO.OUT)
     GPIO.output(LedPin, GPIO.HIGH)
 
-def Loop():
+def loop():
     while True:
         print '..led on'
         GPIO.output(LedPin, GPIO.LOW)
