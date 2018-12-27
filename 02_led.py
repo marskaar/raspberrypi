@@ -5,7 +5,7 @@ LedPin = 11 #pin11
 
 def setup():
     GPIO.setmode(GPIO.BOARD)
-    GPIO.Setup(LedPin, GPIO.OUT)
+    GPIO.setup(LedPin, GPIO.OUT)
     GPIO.output(LedPin, GPIO.HIGH)
 
 def Loop():
